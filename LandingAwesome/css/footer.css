@@ -1,0 +1,48 @@
+.footer {
+  width: 100%;
+  padding: 25px 0 15px;
+  background-color: #000000;
+  background-size: cover;
+}
+
+.footer-sm-icon-list {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  /*flex-wrap: wrap;*/
+}
+
+.footer-sm-icon {
+  list-style: none;
+  margin: 0 24px;
+}
+
+.size2 {
+  color: #86878b;
+  font-family: "Font Awesome 5 Free";
+  font-size: 1.125rem;
+  transition: 0.3s;
+}
+
+.size2:hover {
+  color: #333333;
+  transform: scale(1.3);
+}
+
+.size2:hover {
+  color: #333333;
+  transform: scale(1.3);
+}
+
+.footer-copyright p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.75rem;
+  line-height: 16px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 18px auto 0;
+}

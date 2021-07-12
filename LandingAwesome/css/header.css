@@ -1,0 +1,77 @@
+.header {
+  width: 100%;
+  padding: 25px 0;
+  background-color: #000000;
+  z-index: 20;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.header-menu {
+  position: relative;
+  z-index: 2;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+.menu-list {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  z-index: 2;
+}
+
+.menu-list-item {
+  list-style: none;
+  margin-left: 48px;
+  z-index: 2;
+}
+
+.menu-list-item:first-child {
+  margin-left: 0;
+}
+
+.menu-list::before {
+  position: absolute;
+  content: "";
+  width: 64px;
+  height: 32px;
+  background-image: url("../image/axit-logo.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: contain;
+  vertical-align: middle;
+  top: 0;
+  left: 0;
+}
+
+.menu-list-item a {
+  position: relative;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
+
+.menu-list-item a::after {
+  display: block;
+  content: "";
+  transition: all 0.4s;
+  transition-timing-function: ease;
+  width: 0%;
+  position: absolute;
+}
+
+.menu-list-item a:hover:after {
+  width: 100%;
+  margin-top: 2px;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.7);
+}

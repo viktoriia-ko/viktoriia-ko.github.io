@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memo game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="title"><h1>Memo Game by V.S.</h1></header>
+      <button class="start" onclick="startTimer()">
+        <img src="image/start.png" />
+      </button>
+      <button onclick="document.location.reload()" class="reset">
+        Reset</a>
+    </button>
+      <div class="timer">
+        <p>00:00</p>
+        <p id="timer"></p>
+      </div>
+
+      <section class="game_field">
+        <div id="winner" class="winner">
+          <h2>Congratulations!You Won!</h2>
+          <div class="result">
+            <p>Your time is <span id="totalTime"> </span></p>
+            <p>Result: <span id="totalResult"> </span> points</p>
+          </div>
+          <button id="play-again"onclick="document.location.reload()" class="playagain">
+            Play again </a>
+        </button>
+        </div>
+
+        <div class="memo_card" data-object="card1">
+          <img class="card_back" src="image/card_back.svg" />
+          <img class="card_face" src="image/card_face/1.jpeg" />
+        </div>
+
+        <div class="memo_card" data-object="card1">
+          <img class="card_back" src="image/card_back.svg" />
+          <img class="card_face" src="image/card_face/1.jpeg" />
+        </div>
+
+        <div class="memo_card" data-object="card2">
+          <img class="card_back" src="image/card_back.svg" />
+          <img class="card_face" src="image/card_face/2.jpeg" />
+        </div>
+
+        <div class="memo_card" data-object="card2">
+          <img class="card_back" src="image/card_back.svg" />
+          <img class="card_face" src="image/card_face/2.jpeg" />
+        </div>
+
+        <div class="memo_card" data-object="card3">
+          <img class="card_back" src="image/card_back.svg" />
+          <img class="card_face" src="image/card_face/3.jpeg" />
+        </div>
+
+        <div class="memo_card" data-object="card3">
+          <img class="card_back" src="image/card_back.svg" />
+          <img class="card_face" src="image/card_face/3.jpeg" />
+        </div>
+
+        <div class="memo_card" data-object="card4">
+          <img class="card_back" src="image/card_back.svg" />
+          <img class="card_face" src="image/card_face/4.jpeg" />
+        </div>
+
+        <div class="memo_card" data-object="card4">
+          <img class="card_back" src="image/card_back.svg" />
+          <img class="card_face" src="image/card_face/4.jpeg" />
+        </div>
+
+        <div class="memo_card" data-object="card5">
+          <img class="card_back" src="image/card_back.svg" />
+          <img class="card_face" src="image/card_face/5.jpeg" />
+        </div>
+
+        <div class="memo_card" data-object="card5">
+          <img class="card_back" src="image/card_back.svg" />
+          <img class="card_face" src="image/card_face/5.jpeg" />
+        </div>
+
+        <div class="memo_card" data-object="card6">
+          <img class="card_back" src="image/card_back.svg" />
+          <img class="card_face" src="image/card_face/6.jpeg" />
+        </div>
+
+        <div class="memo_card" data-object="card6">
+          <img class="card_back" src="image/card_back.svg" />
+          <img class="card_face" src="image/card_face/6.jpeg" />
+        </div>
+
+        <div class="memo_card" data-object="card7">
+          <img class="card_back" src="image/card_back.svg" />
+          <img class="card_face" src="image/card_face/7.jpeg" />
+        </div>
+
+        <div class="memo_card" data-object="card7">
+          <img class="card_back" src="image/card_back.svg" />
+          <img class="card_face" src="image/card_face/7.jpeg" />
+        </div>
+
+        <div class="memo_card" data-object="card8">
+          <img class="card_back" src="image/card_back.svg" />
+          <img class="card_face" src="image/card_face/8.jpeg" />
+        </div>
+
+        <div class="memo_card" data-object="card8">
+          <img class="card_back" src="image/card_back.svg" />
+          <img class="card_face" src="image/card_face/8.jpeg" />
+        </div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

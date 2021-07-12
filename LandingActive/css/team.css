@@ -1,0 +1,82 @@
+.team {
+  width: 100%;
+  padding: 100px 0;
+}
+
+.team-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.team-row-item {
+  margin: 0 10px;
+  max-width: 25%;
+}
+
+.team-item-img {
+  width: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-item-img img {
+  width: 100%;
+}
+.team-item-name h4 {
+  font-family: "Raleway";
+  font-size: 1.375rem;
+  color: #2d3033;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.team-item-post h5 {
+  font-family: "Raleway";
+  font-size: 0.8125rem;
+  color: #e84545;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.team-item-discription p {
+  font-family: "Raleway";
+  font-size: 0.875rem;
+  color: #6c7279;
+  text-align: left;
+  margin-top: 30px;
+  padding-right: 10px;
+  width: 100%;
+}
+
+.team-item-social-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.team-social-items {
+  list-style: none;
+  border: 1px solid rgba(156, 156, 156, 0.3);
+  width: 41px;
+  height: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1.5px;
+}
+
+.size1 {
+  color: rgba(156, 156, 156, 0.7);
+  font-family: "Font Awesome 5 Free";
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.size1:hover {
+  transform: scale(1.5);
+  color: #6c7279;
+}

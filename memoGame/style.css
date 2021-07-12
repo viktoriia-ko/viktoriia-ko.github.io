@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 25px 25px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  z-index: 1;
+  background-image: url("../image/back.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat-y;
+  position: relative;
+}
+
+.title {
+  font-family: "Raleway";
+  font-size: 18px;
+  color: white;
+  text-shadow: -5px 0 rgb(165, 31, 31), 0 5px rgb(165, 31, 31),
+    5px 0 rgb(165, 31, 31), 0 -5px rgb(165, 31, 31);
+  font-weight: 1000;
+  text-align: center;
+}
+
+.start {
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  transition: 0.5s;
+  background: transparent;
+  border: 0;
+}
+.start:hover {
+  transform: scale(1.1);
+}
+
+.start:active {
+  transform: scale(0.8);
+}
+
+.timer {
+  color: white;
+  text-shadow: -5px 0 rgb(165, 31, 31), 0 5px rgb(165, 31, 31),
+    5px 0 rgb(165, 31, 31), 0 -5px rgb(165, 31, 31);
+  font-family: "Raleway";
+  font-size: 36px;
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.game_field {
+  margin: 35px auto 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 85%;
+  perspective: 1000px;
+}
+
+.memo_card {
+  height: 180px;
+  width: 130px;
+  border-radius: 30px;
+  margin: 7px;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+  transform: scale(1);
+}
+.memo_card:active {
+  transform: scale(0.9);
+  transition: transform 0.5s;
+}
+
+.card_face,
+.card_back {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  backface-visibility: hidden;
+  position: absolute;
+}
+.card_face {
+  transform: rotateY(180deg);
+}
+
+.flip {
+  transform: rotateY(180deg);
+}
+
+.winner {
+  position: fixed;
+  padding-top: 100px;
+  background-image: url("../image/back.jpg");
+  background-position: center;
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  font-family: "Raleway";
+  font-size: 36px;
+  color: white;
+  text-shadow: -5px 0 rgb(165, 31, 31), 0 5px rgb(165, 31, 31),
+    5px 0 rgb(165, 31, 31), 0 -5px rgb(165, 31, 31);
+  font-weight: 1000;
+  text-align: center;
+  display: none;
+  width: 100%;
+}
+
+.playagain {
+  color: black;
+  text-shadow: -5px 0 rgb(165, 31, 31), 0 5px rgb(165, 31, 31),
+    5px 0 rgb(165, 31, 31), 0 -5px rgb(165, 31, 31);
+  font-family: "Raleway";
+  font-size: 36px;
+  background: transparent;
+  border: 0;
+  transition: 0.5s;
+  padding-top: 20px;
+}
+
+.playagain:active {
+  transform: scale(0.8);
+}
+
+.reset {
+  display: block;
+  margin: auto;
+  text-align: center;
+  color: whitesmoke;
+  text-shadow: -5px 0 rgb(165, 31, 31), 0 5px rgb(165, 31, 31),
+    5px 0 rgb(165, 31, 31), 0 -5px rgb(165, 31, 31);
+  font-family: "Raleway";
+  font-size: 36px;
+  background: transparent;
+  border: 0;
+  transition: 0.5s;
+  padding-top: 20px;
+}
+
+.reset:active {
+  transform: scale(0.8);
+}

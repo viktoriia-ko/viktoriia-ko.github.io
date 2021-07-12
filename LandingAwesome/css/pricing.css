@@ -1,0 +1,119 @@
+.pricing {
+  width: 100%;
+  padding: 100px 0;
+  background-color: #e5e5e5;
+  background-size: cover;
+}
+
+.pricing-title h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.25rem;
+  line-height: 42px;
+
+  color: #212121;
+  text-align: center;
+}
+
+.pricing-line {
+  max-width: 64px;
+  height: 2px;
+  border: 1px solid #d98943;
+  background-color: #d98943;
+  margin: 30px auto;
+}
+
+.pricing-subtitle h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 19px;
+
+  color: #868788;
+  text-align: center;
+}
+
+.pricing-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 40px -15px 0;
+}
+
+.pricing-row-list {
+  text-align: center;
+  margin: 0 15px 15px;
+  transition: 0.5s;
+  flex-basis: 340px;
+}
+
+.pricing-row-list:hover {
+  position: relative;
+  bottom: 10px;
+  box-shadow: 3px 3px 7px rgba(56, 55, 55, 0.5);
+}
+
+.pricing-row-list ul li:hover {
+  background-color: #d16506;
+  color: whitesmoke;
+}
+
+.pricing-row-list-items {
+  width: 100%;
+}
+
+.pricing-row-item1 {
+  background-color: #333333;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+  list-style: none;
+  padding-top: 15px;
+  padding-bottom: 9px;
+  border: 1px solid #e5e5e5;
+}
+
+.pricing-row-item2 {
+  background-color: #333333;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.1875rem;
+  line-height: 41px;
+  text-align: center;
+  color: #ffffff;
+  list-style: none;
+  padding-top: 26px;
+  padding-bottom: 33px;
+  border: 1px solid #e5e5e5;
+}
+
+.pricing-row-item3 {
+  list-style: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 19px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #333333;
+  border: 1px solid #e5e5e5;
+  padding-top: 17px;
+  padding-bottom: 14px;
+}
+
+.pricing-row-item4 {
+  list-style: none;
+  background-color: #ffffff;
+  line-height: 40px;
+  border: 1px solid #e5e5e5;
+  color: #86878b;
+}

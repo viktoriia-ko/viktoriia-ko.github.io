@@ -1,0 +1,128 @@
+.header {
+  width: 100%;
+  padding: 25px 0;
+  background-image: url("../image/header-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.header-row {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  z-index: 2;
+}
+
+.hamburger-menu {
+  display: none;
+}
+.header-logo {
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-list {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  z-index: 2;
+}
+
+.menu-list-item {
+  list-style: none;
+  margin-left: 48px;
+  z-index: 2;
+}
+
+.menu-list-item:first-child {
+  margin-left: 0;
+}
+
+.menu-list-item a {
+  position: relative;
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 0.8125rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.menu-list-item a::after {
+  display: block;
+  content: "";
+  transition: all 0.4s;
+  transition-timing-function: ease;
+  width: 0%;
+  position: absolute;
+}
+
+.menu-list-item a:hover:after {
+  width: 100%;
+  margin-top: 2px;
+  height: 1px;
+  background-color: #ffffff;
+}
+
+.header-line {
+  width: 100%;
+  height: 2px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+}
+
+.header-title h2 {
+  font-family: "Open Sans";
+  font-size: 4.0625rem;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 155px;
+}
+
+.header-subtitle {
+  font-family: "Raleway";
+  font-size: 1.375rem;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.header-btn {
+  margin-top: 76px;
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  transition: 0.5s;
+}
+.header-btn a {
+  font-family: "Raleway";
+  font-size: 1.375rem;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  background-color: #e84545;
+  padding: 19px 50px;
+  transition: 0.5s;
+}
+
+.header-btn:hover {
+  transform: scale(1.1);
+}
+.header-btn a:active {
+  background-color: #e8454576;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+}

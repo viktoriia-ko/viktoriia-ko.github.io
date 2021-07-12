@@ -1,0 +1,46 @@
+.features {
+  width: 100%;
+  padding: 100px 0;
+}
+
+.features-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.features-row-item {
+  max-width: 296px;
+}
+.features-row-item-title h3 {
+  text-transform: uppercase;
+  font-family: "Raleway";
+  font-size: 0.875rem;
+  text-align: center;
+  color: #2d3033;
+  margin: 34px 0 25px;
+}
+
+.features-row-item-discription {
+  font-family: "Raleway";
+  font-size: 0.875rem;
+  text-align: center;
+  color: #6c7279;
+}
+
+.features-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 60px;
+}
+
+.features-icon img {
+  height: 100%;
+}
+
+.row-up {
+  margin-bottom: 70px;
+}
