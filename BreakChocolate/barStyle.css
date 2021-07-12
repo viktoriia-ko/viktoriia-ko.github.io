@@ -1,0 +1,21 @@
+.breakChainWrapper {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.childChainsWrapper {
+  padding: 5px;
+  border: 2px solid blueviolet;
+}
+
+.bar {
+  margin: 20px;
+}
+
+.bar tr td {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(141, 83, 42);
+  box-shadow: 0 0 10px;
+  border: 2px solid rgb(51, 22, 5);
+}
