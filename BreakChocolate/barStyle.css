@@ -1,14 +1,18 @@
 .breakChainWrapper {
   display: flex;
+  background-color: rgba(228, 220, 225, 0.904);
   margin-bottom: 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
 }
 
 .childChainsWrapper {
   padding: 5px;
-  border: 2px solid blueviolet;
+  border: 1px solid rgb(51, 22, 5);
 }
 
 .bar {
+  display: block;
   margin: 20px;
 }
 
@@ -16,6 +20,6 @@
   width: 40px;
   height: 40px;
   background-color: rgb(141, 83, 42);
-  box-shadow: 0 0 10px;
-  border: 2px solid rgb(51, 22, 5);
+  box-shadow: 0 0 8px;
+  border: 1px solid rgb(129, 58, 17);
 }

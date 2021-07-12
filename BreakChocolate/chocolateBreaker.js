@@ -1,12 +1,6 @@
 /*
-+ Задача - разбить плитку шоколада заданного размера n x m на маленькие квадраты. Каждый квадрат имеет размер 1x1 и не может быть разбит. Реализуйте функцию, которая будет возвращать минимальное количество необходимых надломов.
-+ Например, если вам дается плитка шоколада размером 2 x 1, вы можете разделить ее на отдельные квадраты всего за один надлом, но для размера 3 x 1 вы должны сделать два надлома.
-+ Требовать от пользователя входные данные так-же как в прошлом задании. Выводить каждое ломание шоколадки в консоль с указанием текущего состояния плитки и числа надломов.
-+ Для получения размера реализовать функцию getNumberInput(maxValue, minValue)
-let barLength = getNumberInput(maxValue, minValue);
-+ Плитку ломать рекурсивно.
-let finalBreakCount = breakBar(dimension1, dimension2, breakCount);
-+ Число надломов вывести на самый верхний уровень рекурсии используя return. (иногда с этим возникают вопросы)
+Task is to split the chocolate bar of given dimension n x m into small squares. Each square is of size 1x1 and unbreakable. Implement a function that will return minimum number of breaks needed.
+For example if you are given a chocolate bar of size 2 x 1 you can split it to single squares in just one break, but for size 3 x 1 you must do two breaks.
 */
 
 let n = 0;
@@ -68,14 +62,14 @@ function breakBar(dim1, dim2, nameString, parentBreakChain) {
 
   if (dim1 >= dim2) {
     return (
-      breakBar(Math.ceil(dim1 / 2), dim2, nameString + "_" + "1", breakChain) +
-      breakBar(Math.floor(dim1 / 2), dim2, nameString + "_" + "2", breakChain) +
+      breakBar(Math.ceil(dim1 / 2), dim2, nameString + "1.", breakChain) +
+      breakBar(Math.floor(dim1 / 2), dim2, nameString + "2.", breakChain) +
       1
     );
   } else {
     return (
-      breakBar(dim1, Math.ceil(dim2 / 2), nameString + "_" + "1", breakChain) +
-      breakBar(dim1, Math.floor(dim2 / 2), nameString + "_" + "2", breakChain) +
+      breakBar(dim1, Math.ceil(dim2 / 2), nameString + "1.", breakChain) +
+      breakBar(dim1, Math.floor(dim2 / 2), nameString + "2.", breakChain) +
       1
     );
   }
@@ -84,7 +78,7 @@ function breakBar(dim1, dim2, nameString, parentBreakChain) {
 function playBarBreaker() {
   let dim1 = getNumberInput(n, m);
   let dim2 = getNumberInput(n, m);
-  return breakBar(dim1, dim2, "piece");
+  return breakBar(dim1, dim2, "piece ");
 }
 
 alert(playBarBreaker());
