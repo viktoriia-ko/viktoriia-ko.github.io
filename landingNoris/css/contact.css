@@ -1,0 +1,35 @@
+.contact {
+  width: 100%;
+  padding: 30px 0 15px;
+  background-color: #e5e5e5;
+}
+
+.contact-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.contact-row-item {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.contact-discription p {
+  font-family: "Raleway";
+  font-size: 0.875rem;
+  color: #868788;
+  margin-top: 15px;
+}
+
+.contact-img i {
+  color: rgb(186, 81, 43);
+  font-family: "Font Awesome 5 Free";
+  font-size: 20px;
+  text-align: center;
+}

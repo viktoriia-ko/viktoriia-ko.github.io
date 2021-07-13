@@ -1,0 +1,13 @@
+.footer {
+  width: 100%;
+  padding: 15px 0;
+  background-color: #e5e5e5;
+}
+
+.footer-copyright p {
+  font-family: "Raleway";
+  font-size: 0.875rem;
+  color: #5f5c5c;
+  font-weight: 700;
+  text-align: center;
+}
