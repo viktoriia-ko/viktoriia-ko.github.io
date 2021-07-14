@@ -1,9 +1,6 @@
 .production {
   width: 100%;
-  padding: 50px 0;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  padding: 3.125rem 0;
 }
 
 .production-title h2 {
@@ -16,7 +13,7 @@
 }
 .header-production {
   width: 100%;
-  padding: 15px 0;
+  padding: 0.9375rem 0;
   z-index: 20;
   position: relative;
   top: 0;
@@ -47,42 +44,41 @@ li {
   margin: 0;
 }
 .tabs {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 .tabs li {
   display: block;
   background-color: rgb(107, 107, 107);
-  margin-top: 10px;
+  margin-top: 0.625rem;
   opacity: 0.8;
 }
 .tabs li a {
   color: #fff;
   text-decoration: none;
   display: inline-block;
-  padding: 0px 10px;
-  height: 30px;
+  padding: 0px 0.625rem;
+  height: 1.875rem;
   font-family: "Raleway";
 }
 .tabs-content {
-  width: 840px;
-  height: 800px;
+  width: 52.5rem;
+  height: 50rem;
   overflow: hidden;
-  background-color: #e5e5e5;
   opacity: 0.8;
 }
 .tabs-content-title {
   font-family: "Raleway";
-  padding: 20px;
+  padding: 1.25rem;
 }
 .tabs-content ul {
   list-style: none;
-  height: 800px;
+  height: 50rem;
   overflow: scroll;
   overflow-y: hidden;
 }
 .tabs-content ul li {
-  width: 838px;
-  height: 900px;
+  width: 52.375rem;
+  height: 56.25rem;
 }
 
 .tabs-content-title h2 {
@@ -91,5 +87,5 @@ li {
 
 .tabs-content-discription p {
   font-family: "Raleway";
-  padding: 20px;
+  padding: 1.25rem;
 }

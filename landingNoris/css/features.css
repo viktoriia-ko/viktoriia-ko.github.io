@@ -1,13 +1,13 @@
 .features {
   width: 100%;
-  padding: 100px 0;
+  padding: 6.25rem 0;
 }
 .line {
-  max-width: 64px;
+  max-width: 4rem;
   height: 2px;
   border: 1px solid rgb(176, 64, 23);
   background-color: rgb(176, 64, 23);
-  margin: 30px auto;
+  margin: 1.875rem auto;
 }
 
 .features-title h2 {
@@ -22,16 +22,17 @@
 .features-subtitle h3 {
   font-family: "Raleway";
   font-size: 1.1rem;
-  margin-top: 10px;
+  margin-top: 0.625rem;
   color: #868788;
   text-align: center;
 }
 
 .features-row {
   display: flex;
+
   justify-content: space-between;
   align-items: baseline;
-  margin-top: 80px;
+  margin-top: 5rem;
 }
 
 .features-row-item {
@@ -40,23 +41,23 @@
   align-items: center;
   text-align: center;
   flex-direction: column;
-  max-width: 350px;
+  max-width: 21.875rem;
   width: 25%;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
 }
 
 .features-row-item-discription {
   font-family: "Raleway";
   font-size: 1rem;
   color: #000000;
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
 
 .features-icon {
   border: 1px solid rgb(176, 64, 23);
-  width: 70px;
-  height: 70px;
+  width: 4.375rem;
+  height: 4.375rem;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -66,6 +67,6 @@
 .features-icon i {
   color: rgb(214, 124, 91);
   font-family: "Font Awesome 5 Free";
-  font-size: 30px;
+  font-size: 1.875rem;
   text-shadow: rgb(63, 62, 62) 2px 2px 2px;
 }

@@ -1,0 +1,204 @@
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 20px;
+  }
+  .about {
+    padding-bottom: 0;
+  }
+
+  body.lock {
+    overflow: hidden;
+  }
+  .hamburger-menu {
+    display: block;
+    position: relative;
+    margin-left: 0.625rem;
+    width: 1.875rem;
+    height: 1.25rem;
+    z-index: 3;
+  }
+
+  .hamburger-menu span {
+    position: absolute;
+    background-color: #616161;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    top: 9px;
+    transition: all 0.3s ease 0s;
+  }
+
+  .hamburger-menu::before,
+  .hamburger-menu::after {
+    content: "";
+    background-color: #616161;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    transition: all 0.3s ease 0s;
+  }
+  .hamburger-menu::before {
+    top: 0;
+  }
+  .hamburger-menu::after {
+    bottom: 0;
+  }
+  .hamburger-menu.active::before {
+    transform: rotate(45deg);
+    top: 9px;
+  }
+  .hamburger-menu.active::after {
+    transform: rotate(-45deg);
+    bottom: 9px;
+  }
+  .hamburger-menu.active span {
+    transform: scale(0);
+  }
+  .menu {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(221, 221, 221, 0.98);
+    padding: 3.125rem 0.625rem 1.25rem 0.625rem;
+    transition: all 0.3s ease 0s;
+    overflow: auto;
+  }
+
+  .menu.active {
+    top: 0;
+  }
+  .menu-list {
+    display: block;
+  }
+
+  .menu-list-item {
+    margin-left: 0;
+    margin-bottom: 2.5rem;
+    text-align: center;
+    font-size: 2.1875rem;
+    position: relative;
+  }
+
+  .menu-list-item a {
+    font-size: 2.1875rem;
+    font-weight: 300;
+  }
+  .menu-list-item a::after {
+    content: "";
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+  }
+
+  .tabs-content ul li {
+    max-width: 100%;
+    height: 70rem;
+  }
+  .tabs li a {
+    height: 3rem;
+  }
+  .info-row {
+    flex-direction: column;
+  }
+  iframe {
+    display: block;
+    margin: auto;
+  }
+  .info-discription {
+    margin: 30px auto 0;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-img {
+    display: none;
+  }
+  .about-discription p {
+    margin-right: 0;
+  }
+  .about-discription {
+    width: 100%;
+    text-align: center;
+  }
+  .tabs-content-discription p {
+    padding: 0.6rem;
+  }
+  .framemap {
+    width: 30rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  html {
+    font-size: 15px;
+  }
+
+  .features {
+    padding: 4.25rem 0;
+  }
+  .about-subtitle h3 {
+    margin-bottom: 1rem;
+  }
+
+  .menu-list-item a {
+    font-size: 1.6rem;
+  }
+
+  .info-row {
+    margin-top: 3rem;
+  }
+
+  .info-discription p {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  .features-subtitle h3 {
+    margin-bottom: 2rem;
+  }
+
+  .features-row {
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .features-row-item {
+    flex-direction: row;
+    width: 100%;
+    text-align: left;
+    margin: 0.7rem auto;
+  }
+  .features-row-item-discription {
+    width: 80%;
+    margin-top: 0;
+    margin-left: 0.6rem;
+  }
+  .framemap {
+    width: 90%;
+    height: 20rem;
+  }
+  .info-title h2 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .about-title h2 {
+    font-size: 2rem;
+  }
+  .features-title h2 {
+    font-size: 2rem;
+  }
+
+  .features {
+    padding: 3.25rem 0;
+  }
+  .info-title h2 {
+    font-size: 1.6rem;
+  }
+}

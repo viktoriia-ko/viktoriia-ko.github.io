@@ -1,6 +1,6 @@
 .about {
   width: 100%;
-  padding: 100px 0;
+  padding: 6.25rem 0;
 }
 
 .about-title h2 {
@@ -18,17 +18,17 @@
 .about-discription p {
   font-family: "Raleway";
   font-size: 1.1rem;
-  margin-top: 25px;
-  margin-right: 20px;
+  margin-top: 1.5625rem;
+  margin-right: 1.25rem;
 }
 
 .about-subtitle h3 {
   font-family: "Raleway";
   font-size: 1.1rem;
-  margin-top: 10px;
+  margin-top: 0.625rem;
   color: #868788;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 
 .about-row {

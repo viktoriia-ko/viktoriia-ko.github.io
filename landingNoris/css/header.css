@@ -1,6 +1,6 @@
 header {
   width: 100%;
-  padding: 15px 0;
+  padding: 0.9375rem 0;
   z-index: 20;
   position: fixed;
   top: 0;
@@ -25,7 +25,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 40px;
+  height: 2.5rem;
   z-index: 2;
 }
 
@@ -33,7 +33,7 @@ header {
   display: none;
 }
 .header-logo {
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
   vertical-align: middle;
   color: #7b7b7eaf;
   font-family: "Russo One";
@@ -60,7 +60,7 @@ header {
 
 .menu-list-item {
   list-style: none;
-  margin-left: 48px;
+  margin-left: 3rem;
   z-index: 2;
 }
 
