@@ -82,7 +82,7 @@ const dateBuilder = (d) => {
 };
 
 const searchCities = async (searchText) => {
-  const res = await fetch("/weatherApp/server/city.list.json");
+  const res = await fetch("/server/city.list.json");
   const cities = await res.json();
 
   let matches = cities.filter((city) => {
