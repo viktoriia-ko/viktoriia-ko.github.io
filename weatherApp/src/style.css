@@ -6,7 +6,7 @@
 
 body {
   font-family: "montserrat", sans-serif;
-  background-image: url(/src/image/bg.jpg);
+  background-image: url(/weatherApp/src/image/bg.jpg);
   background-size: cover;
   background-position: top center;
 }
