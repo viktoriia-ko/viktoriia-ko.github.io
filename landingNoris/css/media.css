@@ -112,6 +112,17 @@
     margin: 30px auto 0;
     text-align: left;
   }
+
+  .tabs button {
+    font-size: 0.8rem;
+  }
+  .tabs-content-discription p {
+    padding: 0.725rem;
+    font-size: 1rem;
+  }
+  .tabs-row {
+    height: 54rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -130,6 +141,23 @@
   }
   .framemap {
     width: 30rem;
+  }
+  .tabs {
+    max-width: 20%;
+  }
+  .tabs button {
+    font-size: 0.725rem;
+  }
+  .tabs-content-discription p {
+    padding: 0.425rem;
+    font-size: 1rem;
+  }
+  .tabs-row {
+    height: 50rem;
+  }
+  .tabs-content {
+    max-width: 80%;
+    opacity: 0.8;
   }
 }
 

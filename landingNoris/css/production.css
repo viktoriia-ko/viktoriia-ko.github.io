@@ -4,7 +4,6 @@
 }
 
 .production-title h2 {
-  font-family: "Raleway";
   font-style: normal;
   font-weight: normal;
   font-size: 2.25rem;
@@ -36,56 +35,57 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 100%;
+  /* height: 52rem;
+  overflow: scroll; */
 }
 
-ul,
-li {
-  padding: 0;
-  margin: 0;
-}
 .tabs {
   margin-bottom: 1.25rem;
+  max-width: 15%;
+  overflow: hidden;
+  margin-right: 1.3rem;
 }
-.tabs li {
+.tabs button {
   display: block;
-  background-color: rgb(107, 107, 107);
+  background-color: rgb(163, 161, 159);
   margin-top: 0.625rem;
   opacity: 0.8;
-}
-.tabs li a {
+  border-radius: 16px 0 16px 0;
+  padding: 0.625rem;
+  width: 100%;
   color: #fff;
-  text-decoration: none;
-  display: inline-block;
-  padding: 0px 0.625rem;
-  height: 1.875rem;
-  font-family: "Raleway";
-}
-.tabs-content {
-  width: 52.5rem;
-  height: 50rem;
-  overflow: hidden;
-  opacity: 0.8;
-}
-.tabs-content-title {
-  font-family: "Raleway";
-  padding: 1.25rem;
-}
-.tabs-content ul {
-  list-style: none;
-  height: 50rem;
-  overflow: scroll;
-  overflow-y: hidden;
-}
-.tabs-content ul li {
-  width: 52.375rem;
-  height: 56.25rem;
+  cursor: pointer;
+  transition: 0.3s;
+  outline: none;
+  border: none;
+  font-size: 1rem;
 }
 
-.tabs-content-title h2 {
-  font-family: "Raleway";
+.tabs button:hover {
+  background-color: rgb(189, 187, 185);
+}
+
+.tabs button.active {
+  background-color: rgb(102, 100, 100);
+}
+
+.tabs-content {
+  max-width: 85%;
+  opacity: 0.8;
+  height: 52rem;
+  overflow: scroll;
+}
+
+.tabcontent {
+  display: none;
+  border-top: none;
+}
+.tabs-content-title {
+  margin-bottom: 2rem;
 }
 
 .tabs-content-discription p {
-  font-family: "Raleway";
-  padding: 1.25rem;
+  font-size: 1.1rem;
+  margin-bottom: 1.4rem;
 }

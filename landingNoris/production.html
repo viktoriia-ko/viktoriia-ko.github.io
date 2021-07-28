@@ -18,7 +18,7 @@
       rel="stylesheet"
     />
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
-    <script src="js/script.js"></script>
+    
     <title>НОРИС</title>
   </head>
   <body>
@@ -57,28 +57,19 @@
         <div class="production-title title"><h2>Продукция</h2></div>
         <div class="line"></div>
         <div class="tabs-row">
-          <ul class="tabs">
-            <li><a href="#nerzhaveyuschaya-stal">Нержавеющая сталь</a></li>
-            <li><a href="#stalnye-truby">Трубы</a></li>
-            <li><a href="#fitingi">Фитинги</a></li>
-            <li><a href="#ploskij-prokat">Плоский прокат</a></li>
-            <li><a href="#polimernye-materialy">Полимерные материалы</a></li>
-            <li>
-              <a href="#vspenivayuschijsya-polistirol"
-                >Полистерол вспенивающийся</a
-              >
-            </li>
-            <li>
-              <a href="#polistirol-obschego-naznacheniya"
-                >Полистирол общего назначения</a
-              >
-            </li>
-            <li><a href="#polietilen">Полиэтилен</a></li>
-            <li><a href="#polipropilen">Полипропилен</a></li>
-          </ul>
+          <div class="tabs">
+            <button class="tablinks" onclick="openProd(event,'nerzhaveyuschaya-stal')" id="defaultOpen">Нержавеющая сталь</button>
+            <button class="tablinks" onclick="openProd(event,'stalnye-truby')">Трубы</button>
+            <button class="tablinks" onclick="openProd(event,'fitingi')">Фитинги</button>
+            <button class="tablinks" onclick="openProd(event,'ploskij-prokat')">Плоский прокат</button>
+            <button class="tablinks" onclick="openProd(event,'polimernye-materialy')">Полимерные материалы</button>
+            <button class="tablinks" onclick="openProd(event,'vspenivayuschijsya-polistirol')">Полистерол вспенивающийся</button>
+            <button class="tablinks" onclick="openProd(event,'polistirol-obschego-naznacheniya')">Полистирол общего назначения</button>
+            <button class="tablinks" onclick="openProd(event,'polietilen')">Полиэтилен</button>
+            <button class="tablinks" onclick="openProd(event,'polipropilen')">Полипропилен</button>
+          </div>
           <div class="tabs-content">
-            <ul>
-              <li id="nerzhaveyuschaya-stal">
+              <div  id="nerzhaveyuschaya-stal" class="tabcontent">
                 <div class="tabs-content-title"><h2>Нержавеющая сталь</h2></div>
                 <div class="tabs-content-discription">
                   <p>
@@ -121,11 +112,11 @@
                     Ассортимент: Плоский прокат – листы толщиной от 0,3
                     различного раскроя в листах и рулонах Проволока – диаметром
                     от 0,2 мм до необходимого заказчику, в кругах Трубы –
-                    диаметром от 10,0 мм Фитинги для трубопроводов
+                    диаметром от 10,0 мм Фитинги для трубопроводов.
                   </p>
                 </div>
-              </li>
-              <li id="stalnye-truby">
+              </div>
+              <div id="stalnye-truby" class="tabcontent">
                 <div class="tabs-content-title">
                   <h2>Трубы</h2>
                 </div>
@@ -161,11 +152,11 @@
                     Ассортимент: сварные трубы из стали любой марки диаметром от
                     10 до более 2000 мм бесшовные трубы диаметром от 3,5 до 630
                     мм профильные трубы с сечением разных видов комплектующие
-                    (фитинги) различных типоразмеров и характеристик
+                    (фитинги) различных типоразмеров и характеристик.
                   </p>
                 </div>
-              </li>
-              <li id="fitingi">
+              </div>
+              <div id="fitingi" class="tabcontent">
                 <div class="tabs-content-title"><h2>Фитинги</h2></div>
                 <div class="tabs-content-discription">
                   <p>
@@ -189,11 +180,11 @@
                     Ассортимент: отводы нержавеющие переходы нержавеющие
                     тройники нержавеющие AISI 304 борт-шайбы нержавеющие
                     заглушки нержавеющие фланцы нержавеющие AISI 304 днища
-                    нержавеющие
+                    нержавеющие.
                   </p>
                 </div>
-              </li>
-              <li id="ploskij-prokat">
+              </div>
+              <div id="ploskij-prokat" class="tabcontent">
                 <div class="tabs-content-title"><h2>Плоский прокат</h2></div>
                 <div class="tabs-content-discription">
                   <p>
@@ -212,12 +203,12 @@
                   </p>
 
                   <p>
-                    Ассортимент рулон горячекатаный лист горячекатаный лист
-                    горячекатаный холоднокатаный рулон холоднокатаный лист
+                    Ассортимент: рулон горячекатаный, лист горячекатаный, лист
+                    горячекатаный, холоднокатаный рулон, холоднокатаный лист.
                   </p>
                 </div>
-              </li>
-              <li id="polimernye-materialy">
+              </div>
+              <div id="polimernye-materialy" class="tabcontent">
                 <div class="tabs-content-title">
                   <h2>Полимерные материалы</h2>
                 </div>
@@ -258,8 +249,8 @@
                     полипропилен, поливинилацетат.
                   </p>
                 </div>
-              </li>
-              <li id="vspenivayuschijsya-polistirol">
+              </div>
+              <div id="vspenivayuschijsya-polistirol" class="tabcontent">
                 <div class="tabs-content-title">
                   <h2>Полистерол вспенивающийся</h2>
                 </div>
@@ -292,8 +283,8 @@
                     огнезащитные (антипиреновые) добавки.
                   </p>
                 </div>
-              </li>
-              <li id="polistirol-obschego-naznacheniya">
+              </div>
+              <div id="polistirol-obschego-naznacheniya" class="tabcontent">
                 <div class="tabs-content-title">
                   <h2>Полистирол общего назначения</h2>
                 </div>
@@ -328,8 +319,8 @@
                     давлением, термоформованием.
                   </p>
                 </div>
-              </li>
-              <li id="polietilen">
+              </div>
+              <div id="polietilen" class="tabcontent">
                 <div class="tabs-content-title"><h2>Полиэтилен</h2></div>
                 <div class="tabs-content-discription">
                   <p>
@@ -395,8 +386,8 @@
                     давлением, пневматическое формование и ротоформование.
                   </p>
                 </div>
-              </li>
-              <li id="polipropilen">
+              </div>
+              <div id="polipropilen" class="tabcontent">
                 <div class="tabs-content-title"><h2>Полипропилен</h2></div>
                 <div class="tabs-content-discription">
                   <p>
@@ -438,11 +429,12 @@
                     процентов, то есть второе место после полиэтилена.
                   </p>
                 </div>
-              </li>
-            </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      <script src="js/script.js"></script>
     </section>
 
     <section class="contact" id="contact">

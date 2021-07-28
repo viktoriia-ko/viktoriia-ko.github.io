@@ -1,6 +1,7 @@
 .features {
   width: 100%;
-  padding: 6.25rem 0;
+  padding-top: 0;
+  padding-bottom: 6.25rem;
 }
 .line {
   max-width: 4rem;
@@ -11,7 +12,6 @@
 }
 
 .features-title h2 {
-  font-family: "Raleway";
   font-style: normal;
   font-weight: normal;
   font-size: 2.2rem;
@@ -20,7 +20,6 @@
 }
 
 .features-subtitle h3 {
-  font-family: "Raleway";
   font-size: 1.1rem;
   margin-top: 0.625rem;
   color: #868788;
@@ -48,7 +47,6 @@
 }
 
 .features-row-item-discription {
-  font-family: "Raleway";
   font-size: 1rem;
   color: #000000;
   margin-top: 1.875rem;

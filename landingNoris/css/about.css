@@ -4,7 +4,6 @@
 }
 
 .about-title h2 {
-  font-family: "Raleway";
   font-style: normal;
   font-weight: normal;
   font-size: 2.25rem;
@@ -16,14 +15,12 @@
   width: 60%;
 }
 .about-discription p {
-  font-family: "Raleway";
   font-size: 1.1rem;
   margin-top: 1.5625rem;
   margin-right: 1.25rem;
 }
 
 .about-subtitle h3 {
-  font-family: "Raleway";
   font-size: 1.1rem;
   margin-top: 0.625rem;
   color: #868788;
@@ -34,7 +31,6 @@
 .about-row {
   display: flex;
   flex-direction: row;
-  /*flex-wrap: wrap;*/
   justify-content: space-between;
 }
 
