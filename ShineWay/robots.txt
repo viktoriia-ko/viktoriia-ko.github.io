@@ -23,5 +23,5 @@ Disallow: /*_escaped_fragment_*
 Disallow:
 Clean-param: editionuid&from&utm_referer&r&ref&rs&yhid&keyword&sub1
 
-Sitemap: http://project4407097.tilda.ws/sitemap.xml
-Host: project4407097.tilda.ws
+Sitemap: http://shinewaytrading.tilda.ws/sitemap.xml
+Host: shinewaytrading.tilda.ws
