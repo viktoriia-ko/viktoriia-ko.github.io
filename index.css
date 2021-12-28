@@ -1,7 +1,8 @@
 html {
   font-family: "Raleway";
-  background-color: rgb(229, 224, 233);
+  background-color: rgb(108, 81, 136);
   text-align: center;
+  color: whitesmoke;
 }
 h2 {
   margin-top: 30px;
@@ -17,18 +18,24 @@ li {
   padding-bottom: 10px;
 }
 li a:hover {
-  font-size: 22px;
-  color: rgb(139, 0, 65);
+  font-size: 21px;
+  color: rgb(250, 238, 68);
   font-weight: bold;
 }
 li a {
   text-decoration: none;
-  color: black;
   cursor: pointer;
+  color: whitesmoke;
   transition: 0.4s;
   font-size: 20px;
 }
-
+h2 a:hover {
+  color: whitesmoke;
+}
+h2 a {
+  color: rgb(250, 238, 68);
+  transition: 0.4s;
+}
 span {
   margin-left: 10px;
 }
