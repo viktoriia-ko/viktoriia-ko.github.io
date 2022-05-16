@@ -1,61 +1,38 @@
 .contacts {
   width: 100%;
-  padding: 72px 0 88px;
+  padding: 100px 0 100px;
   background-color: #3a3e64;
   background-size: cover;
 }
 
-.contacts-row {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: row;
-}
-
-.contacts-row-item {
-  width: 40%;
-}
-
 .contacts-item-title {
   font-family: "Raleway";
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   color: #ffffff;
   text-align: center;
-  margin-bottom: 22px;
+  margin-bottom: 3rem;
 }
 
 .contacts-item-discription {
   font-family: "Raleway";
-  font-size: 1rem;
+  font-size: 1.6rem;
   color: #ffffff;
   text-align: center;
+  margin-bottom: 1.5rem;
 }
 
-.contacts-item-social-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
+a {
+  text-decoration: none;
+  color: #e84545;
 }
 
-.contacts-social-items {
-  list-style: none;
-  border: 1px solid rgba(250, 250, 250, 0.85);
-  width: 41px;
-  height: 41px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 3px;
+.contacts-item-adress {
+  margin-top: 2.6rem;
 }
 
-.size2 {
-  color: rgba(250, 250, 250, 0.85);
-  font-family: "Font Awesome 5 Free";
-  font-size: 1rem;
-  transition: 0.3s;
-}
-
-.size2:hover {
-  transform: scale(1.5);
+.contacts-item-adress p {
+  font-family: "Raleway";
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-align: center;
 }
