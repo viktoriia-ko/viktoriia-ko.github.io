@@ -31,9 +31,6 @@
     display: none;
   }
 
-  .team-item-img {
-    width: 160px;
-  }
   .slider-row {
     flex-wrap: wrap;
   }
@@ -70,8 +67,7 @@
     height: 20px;
     z-index: 3;
   }
-  .header-line {
-  }
+
   .hamburger-menu span {
     position: absolute;
     background-color: #616161;

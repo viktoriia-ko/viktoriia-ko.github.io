@@ -10,4 +10,9 @@ $(document).ready(function () {
     $(".hamburger-menu,.menu").toggleClass("active");
     $("body").toggleClass("lock");
   });
+
+  $(".menu-list-link").click(function (event) {
+    $(".hamburger-menu, .menu").removeClass("active");
+    $("body").removeClass("lock");
+  });
 });
