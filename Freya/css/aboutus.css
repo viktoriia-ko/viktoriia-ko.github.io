@@ -1,0 +1,41 @@
+.aboutus {
+  width: 100%;
+  padding: 100px 0;
+}
+
+.aboutus-row {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.aboutus-row-item {
+  width: 90%;
+}
+.aboutus-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.aboutus-row-item-title {
+  font-family: "Raleway";
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+}
+
+.aboutus-row-item-description {
+  font-family: "Raleway";
+  text-align: center;
+  margin-bottom: 2.5rem;
+  font-size: 1.1rem;
+  margin-top: 1.5625rem;
+  margin-left: 1.25rem;
+}
+.aboutus-icon img {
+  width: 100%;
+}
