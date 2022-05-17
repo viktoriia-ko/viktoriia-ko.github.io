@@ -1,9 +1,11 @@
 $(document).ready(function () {
   $(".slider").slick({
+    speed: 2000,
     arrows: false,
     dots: true,
     autoplay: true,
     autoplaySpeed: 2500,
+    cssEase: "linear",
   });
 
   $(".hamburger-menu").click(function (event) {

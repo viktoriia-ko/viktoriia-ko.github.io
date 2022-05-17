@@ -38,6 +38,15 @@
     top: 53%;
     left: 45%;
   }
+
+  .aboutus-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutus-row-item-title {
+    margin-top: 30px;
+  }
 }
 
 @media screen and (max-width: 736px) {
