@@ -83,7 +83,12 @@
   height: 1px;
   background-color: #ffffff;
 }
-
+.menu-list-link h3 {
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 0.8125rem;
+  color: #e84545;
+}
 .header-line {
   width: 100%;
   height: 2px;
