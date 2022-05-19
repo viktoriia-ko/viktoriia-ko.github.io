@@ -36,6 +36,10 @@
   margin-top: 1.5625rem;
   margin-left: 1.25rem;
 }
+
+.aboutus-row-item-description p {
+  margin-bottom: 20px;
+}
 .aboutus-icon img {
   width: 100%;
 }
