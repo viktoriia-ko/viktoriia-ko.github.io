@@ -12,6 +12,10 @@
   .features-row {
     justify-content: center;
   }
+
+  .menu-list-item a {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 889px) {
@@ -47,9 +51,38 @@
     height: 400px;
     overflow: hidden;
   }
-}
 
-@media screen and (max-width: 736px) {
+  .works-row {
+    flex-direction: column;
+    margin-bottom: 120px;
+  }
+
+  .works-row-item {
+    width: 80%;
+    height: 50%;
+  }
+
+  .works-title {
+    margin-top: 30px;
+  }
+
+  .works {
+    padding: 0 0 100px;
+  }
+
+  .aboutus-row-item-description {
+    font-size: 1.5rem;
+  }
+
+  .works-discription {
+    font-size: 1.5rem;
+  }
+
+  .features-row-item-discription {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 834px) {
   .header-logo {
     display: none;
   }
@@ -159,6 +192,21 @@
     left: 0;
   }
 
+  .features-row {
+    flex-wrap: wrap;
+  }
+
+  .features-row-item {
+    width: 40%;
+  }
+  .features-row-item-title h3 {
+    font-size: 1.6rem;
+  }
+  .features-row-item-discription {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 736px) {
   .slider-item-img {
     height: 350px;
   }
@@ -177,14 +225,18 @@
   }
 
   .contacts-item-title {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .contacts-item-discription {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .contacts-row-item {
     width: 55%;
+  }
+  .features-row-item {
+    width: 50%;
+    margin-bottom: 40px;
   }
 }
 
@@ -192,20 +244,13 @@
   html {
     font-size: 12px;
   }
-  .aboutus-row-item-description {
-    font-size: 1.2rem;
-  }
+
   .features {
     padding-top: 50px;
   }
 
   .features-row-item-title h3 {
-    font-size: 1.1rem;
     margin: 24px 0 15px;
-  }
-
-  .features-row-item-discription {
-    font-size: 1.1rem;
   }
 
   .header-title h2 {
@@ -225,6 +270,10 @@
 
   .slider-item-review {
     margin-top: 55px;
+  }
+
+  .features-title {
+    margin-bottom: 40px;
   }
 
   .features-row-item {
@@ -249,13 +298,7 @@
     font-size: 1.3rem;
     padding: 19px 53px;
   }
-  .contacts-item-title {
-    font-size: 1.1rem;
-  }
 
-  .contacts-item-discription {
-    font-size: 1.1rem;
-  }
   .contacts-row-item {
     width: 75%;
   }
@@ -300,6 +343,15 @@
   }
   .contacts-row-item {
     width: 75%;
+  }
+
+  .works {
+    padding: 100px 0 0;
+  }
+}
+@media screen and (max-width: 416px) {
+  .aboutus-icon {
+    height: 200px;
   }
 }
 @media screen and (max-width: 360px) {
