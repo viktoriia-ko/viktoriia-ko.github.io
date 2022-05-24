@@ -11,7 +11,7 @@
 }
 
 .aboutus-row-item {
-  width: 90%;
+  width: 100%;
 }
 .aboutus-icon {
   display: flex;
@@ -32,14 +32,20 @@
   font-family: "Raleway";
   text-align: center;
   margin-bottom: 2.5rem;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   margin-top: 1.5625rem;
   margin-left: 1.25rem;
 }
-
+.about-name-line {
+  max-width: 64px;
+  height: 2px;
+  border: 1px solid #e84545;
+  background-color: #e84545;
+  margin: 34px auto;
+}
 .aboutus-row-item-description p {
   margin-bottom: 20px;
 }
 .aboutus-icon img {
-  width: 100%;
+  max-width: 100%;
 }

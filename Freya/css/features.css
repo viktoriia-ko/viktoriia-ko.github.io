@@ -12,12 +12,18 @@
 .features-row {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   flex-direction: row;
+  /* flex-wrap: wrap; */
 }
 
 .features-row-item {
-  max-width: 296px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 50px 10px 0;
+  width: 20%;
 }
 .features-row-item-title h3 {
   text-transform: uppercase;
@@ -45,8 +51,4 @@
 
 .features-icon img {
   height: 100%;
-}
-
-.row-up {
-  margin-bottom: 70px;
 }

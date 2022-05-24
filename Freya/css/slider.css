@@ -51,19 +51,11 @@
   padding-right: 35px;
 }
 .slider-item-review {
-  font-family: "Cardo";
+  font-family: "RaleWay", sans-serif;
   font-size: 2rem;
   color: #ffffff;
   text-align: left;
   margin-top: 115px;
-}
-
-.slider-item-review-name {
-  font-family: "Raleway";
-  font-size: 0.8125rem;
-  color: #ffffff;
-  text-align: left;
-  margin-top: 30px;
 }
 
 .slick-list {
