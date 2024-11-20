@@ -92,10 +92,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: white;
   border-radius: 10px;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s, box-shadow 0.3s, background 0.5s, color 0.5s;
 }
 .skills-grid span, .project-card a {
