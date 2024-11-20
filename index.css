@@ -52,6 +52,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 1.5rem;
+  align-items: stretch;
 }
 
 .skills-grid span, .project-card a {
@@ -66,6 +67,10 @@ body {
   font-size: 1rem;
   font-weight: 600;
   transition: transform 0.3s, box-shadow 0.3s, background 0.5s, color 0.5s;
+  flex-grow: 1; 
+  display: flex;
+  align-items: center; 
+  justify-content: center;
 }
 
 .skills-grid span:hover, .project-card a:hover {
