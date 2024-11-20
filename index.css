@@ -108,7 +108,7 @@ body {
 .skills-grid span {
   box-shadow: none;
 }
-.skills-grid span:hover, .project-card a:hover {
+.project-card a:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
