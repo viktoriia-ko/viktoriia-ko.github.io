@@ -80,14 +80,6 @@ body {
   font-weight: 600;
 }
 
-.skill-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.skill-card:hover img {
-  transform: scale(1.2); 
-}
 .project-card { 
   display: flex;
   flex-direction: column;
@@ -113,7 +105,9 @@ body {
   align-items: center; 
   justify-content: center;
 }
-
+.skills-grid span {
+  box-shadow: none;
+}
 .skills-grid span:hover, .project-card a:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
