@@ -118,7 +118,6 @@ body {
   color: white;
 }
 
-/* Work Experience Section */
 .work-experience {
   padding: 3rem 0;
   background: #f9f9f9;
@@ -166,7 +165,6 @@ body {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-
 
 .footer {
   text-align: center;
