@@ -1,0 +1,26 @@
+@import url("header.css");
+@import url("presentation.css");
+@import url("aboutus.css");
+@import url("features.css");
+@import url("footer.css");
+@import url("works.css");
+@import url("team.css");
+@import url("download.css");
+@import url("contacts.css");
+@import url("slider.css");
+@import url("partners.css");
+@import url("media.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0 15px;
+  max-width: 1170px;
+  margin: auto;
+  z-index: 1;
+  position: relative;
+}

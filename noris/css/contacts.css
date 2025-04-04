@@ -1,0 +1,46 @@
+.contacts {
+  width: 100%;
+  padding: 100px 0 100px;
+  background-color: #2f2f2f;
+  background-size: cover;
+}
+
+.contacts-item-title {
+  font-family: "Helvetica Neue";
+  font-size: 1.8rem;
+  color: #f5f5f5;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contacts-item-discription {
+  font-family: "Helvetica Neue";
+  font-size: 1.6rem;
+  color: #f5f5f5;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.contacts-item-discription a {
+  text-decoration: none;
+  color: #e5e5e5;
+}
+
+
+.contacts-item-adress p {
+  font-family: "Helvetica Neue";
+  font-size: 1.6rem;
+  color: #f5f5f5;
+  text-align: center;
+}
+
+.contacts-name {
+  margin-top: 2.2rem;
+}
+
+.contacts-name h4 {
+  font-family: "Helvetica Neue";
+  font-size: 0.875rem;
+  color: #f5f5f5;
+  text-align: center;
+}

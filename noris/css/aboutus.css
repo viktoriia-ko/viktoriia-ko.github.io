@@ -1,0 +1,50 @@
+.aboutus {
+  width: 100%;
+  padding: 100px 0;
+}
+
+.aboutus-row {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.aboutus-row-item {
+  width: 100%;
+}
+.aboutus-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.aboutus-row-item-title {
+  font-family: "Helvetica Neue";
+  text-align: center;
+  font-style: normal;
+  font-size: 1.4rem;
+}
+
+.aboutus-row-item-description {
+  font-family: "Helvetica Neue";
+  text-align: center;
+  margin-bottom: 2.5rem;
+  font-size: 1.3rem;
+  margin-top: 1.5625rem;
+  margin-left: 1.25rem;
+}
+.about-name-line {
+  max-width: 64px;
+  height: 2px;
+  border: 1px solid #2f2f2f;
+  background-color: #2f2f2f;
+  margin: 34px auto;
+}
+.aboutus-row-item-description p {
+  margin-bottom: 20px;
+}
+.aboutus-icon img {
+  max-width: 100%;
+}
