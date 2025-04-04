@@ -2,11 +2,16 @@ $(document).ready(function () {
   $(".slider").slick({
     speed: 2000,
     arrows: false,
-    dots: true,
+    dots: false,
     autoplay: true,
     autoplaySpeed: 2500,
     cssEase: "linear",
     pauseOnHover: true,
+    fade: true,
+  });
+
+  $(".slider").on('click', '.slider-item', function() {
+    $(".slider").slick('slickNext'); 
   });
 
   $(".hamburger-menu").click(function (event) {
