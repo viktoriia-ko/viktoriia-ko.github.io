@@ -8,6 +8,9 @@ $(document).ready(function () {
     cssEase: "linear",
     pauseOnHover: true,
     fade: true,
+    touchThreshold: 10, 
+    swipe: true, 
+    touchMove: true,
   });
 
   $(".slider").on('click', '.slider-item', function() {
