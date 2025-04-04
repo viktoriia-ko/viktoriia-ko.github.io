@@ -6,6 +6,7 @@ $(document).ready(function () {
     autoplay: true,
     autoplaySpeed: 2500,
     cssEase: "linear",
+    pauseOnHover: true,
   });
 
   $(".hamburger-menu").click(function (event) {
